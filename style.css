@@ -43,7 +43,6 @@ img {
   margin-bottom: 20px;
   background: rgb(165, 149, 149);
   color: white;
-  min-height: 150px;
 }
 .footer [class^="col"] {
   margin-top: 20px;
