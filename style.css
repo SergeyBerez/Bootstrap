@@ -1,8 +1,9 @@
 .container {
+  padding: 20px;
   font-size: 14px;
   font-weight: "arial";
   line-height: 22px;
-  background: rgb(245, 240, 240);
+  background: rgb(238, 231, 231);
 }
 .div-line {
   margin: 0 auto;
@@ -13,22 +14,46 @@
   height: 100%;
 }
 [class^="row"] {
-  background: rgb(245, 240, 240);
+  background: rgb(238, 231, 231);
 }
-[class^="col"] {
+.header [class^="col"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  background: rgb(77, 73, 73);
+  color: white;
+  min-height: 100px;
+}
+/* .header .row .row {
+  background: rgb(77, 73, 73);
+} */
+.content-left [class^="col"] {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgb(77, 73, 73);
+  color: white;
+  min-height: 120px;
+}
+.content-right [class^="col"] {
+  padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   background: rgb(165, 149, 149);
   color: white;
+  min-height: 150px;
+  border: 1px solid #000;
+}
+.footer [class^="col"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgb(59, 57, 57);
+  color: white;
   min-height: 70px;
 }
-.aside [class^="col"],
-.header [class^="col"],
-.header .row .row,
-.footer [class^="col"] {
-  background: rgb(77, 73, 73);
+.content-footer [class^="col"] {
+  padding: 20px;
 }
-
 /* .header [class^="col"] {
   background: rgb(219, 18, 18);
   color: white;
