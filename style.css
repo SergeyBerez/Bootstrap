@@ -1,9 +1,9 @@
 .container {
-  padding: 20px;
   font-size: 14px;
   font-weight: "arial";
   line-height: 22px;
   background: rgb(238, 231, 231);
+  height: 800px;
 }
 .div-line {
   margin: 0 auto;
@@ -19,14 +19,17 @@
 .header [class^="col"] {
   margin-top: 20px;
   margin-bottom: 20px;
-
+  /* border: 1px solid #000; */
   background: rgb(77, 73, 73);
   color: white;
-  min-height: 100px;
+  /* min-height: 100px; */
 }
-/* .header .row .row {
-  background: rgb(77, 73, 73);
-} */
+.header .img-logo,
+img {
+  background: rgb(238, 231, 231);
+  width: 100%;
+}
+
 .content-left [class^="col"] {
   padding: 20px;
   margin-top: 20px;
@@ -36,13 +39,11 @@
   min-height: 120px;
 }
 .content-right [class^="col"] {
-  padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   background: rgb(165, 149, 149);
   color: white;
   min-height: 150px;
-  border: 1px solid #000;
 }
 .footer [class^="col"] {
   margin-top: 20px;
@@ -51,6 +52,14 @@
   color: white;
   min-height: 70px;
 }
+
+.footer .img-footer {
+  background-image: url(img/2019-10-04_20-21-22.png);
+
+  background-size: cover;
+  min-height: 200px;
+}
+
 .content-footer [class^="col"] {
   padding: 20px;
 }
