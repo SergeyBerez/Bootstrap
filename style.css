@@ -5,6 +5,12 @@
   background: rgb(238, 231, 231);
   height: 800px;
 }
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 .div-line {
   margin: 0 auto;
   border: 1px solid #000;
@@ -17,12 +23,12 @@
   background: rgb(238, 231, 231);
 }
 .header [class^="col"] {
+  text-align: right;
   margin-top: 20px;
   margin-bottom: 10px;
-  
+
   background: rgb(77, 73, 73);
   color: white;
-  
 }
 .header .img-logo,
 img {
@@ -31,6 +37,7 @@ img {
 }
 
 .content-left [class^="col"] {
+  text-align: center;
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -45,6 +52,8 @@ img {
   color: white;
 }
 .footer [class^="col"] {
+ 
+  text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   background: rgb(59, 57, 57);
