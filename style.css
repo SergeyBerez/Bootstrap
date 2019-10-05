@@ -26,14 +26,16 @@ li {
   text-align: right;
   margin-top: 20px;
   margin-bottom: 10px;
-
+  min-height: 100px;
   background: rgb(77, 73, 73);
   color: white;
 }
-.header .img-logo,
-img {
+.col-4.img-logo {
   background: rgb(238, 231, 231);
+}
+img {
   width: 100%;
+  height: 100%;
 }
 
 .content-left [class^="col"] {
@@ -52,7 +54,6 @@ img {
   color: white;
 }
 .footer [class^="col"] {
- 
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
