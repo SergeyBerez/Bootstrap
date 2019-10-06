@@ -1,4 +1,5 @@
 .container {
+  max-width: 990px;
   font-size: 14px;
   font-weight: "arial";
   line-height: 22px;
@@ -28,6 +29,7 @@ li {
   background: rgb(238, 231, 231);
 }
 .img {
+  width: 30%;
   align-self: start;
   margin: 10px;
   padding: 10px;
@@ -54,7 +56,6 @@ img {
   padding: 10px;
 }
 
-
 .footer-list-left div {
   background: rgb(77, 73, 73);
   width: 45%;
@@ -62,17 +63,15 @@ img {
   padding: 10px;
 }
 .footer-list-right div {
-  background:rgb(77, 73, 73);
+  background: rgb(77, 73, 73);
   min-height: 100px;
   margin: 10px;
   padding: 10px;
 }
 
+/* ---------бордеры для просмотра верстки и сетки -------- */
 
- /* ---------бордеры для просмотра верстки и сетки -------- */
-
-
- /* .outline-row-red {
+/* .outline-row-red {
   outline: 4px solid rgb(250, 2, 2);
 }
 .outline-seo-block-pink {
