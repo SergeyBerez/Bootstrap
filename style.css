@@ -3,7 +3,6 @@
   font-weight: "arial";
   line-height: 22px;
   background: rgb(238, 231, 231);
-  height: 800px;
 }
 ul,
 li {
@@ -14,70 +13,74 @@ li {
 .div-line {
   margin: 0 auto;
   border: 1px solid #000;
-  width: 97%;
+  width: 95%;
 }
-.auto-height {
-  height: 100%;
-}
-[class^="row"] {
-  background: rgb(238, 231, 231);
+.header,
+.main,
+.footer {
+  margin: 20px;
 }
 .header [class^="col"] {
-  text-align: right;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  min-height: 100px;
   background: rgb(77, 73, 73);
   color: white;
 }
-.col-4.img-logo {
+.header .img-logo {
   background: rgb(238, 231, 231);
+}
+.img {
+  align-self: start;
+  margin: 10px;
+  padding: 10px;
 }
 img {
   width: 100%;
   height: 100%;
 }
-
-.content-left [class^="col"] {
+.content-left div {
   text-align: center;
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
   background: rgb(77, 73, 73);
   color: white;
   min-height: 120px;
 }
-.content-right [class^="col"] {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background: rgb(165, 149, 149);
-  color: white;
-}
-.footer [class^="col"] {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background: rgb(59, 57, 57);
+.content-right div:not(.box-right) {
+  background: rgb(187, 194, 197);
   color: white;
 }
 
-.footer .img-footer {
-  background-image: url(img/2019-10-04_20-21-22.png);
-  background-size: cover;
-  min-height: 200px;
+.box {
+  background: inherit;
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
 }
-.content-footer [class^="col"] {
-  padding: 20px;
+
+
+.footer-list-left div {
+  background: rgb(77, 73, 73);
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
 }
-/* .header [class^="col"] {
-  background: rgb(219, 18, 18);
-  color: white;
+.footer-list-right div {
+  background:rgb(77, 73, 73);
   min-height: 100px;
-  border: 1px solid #000;
-} */
-/* .main [class^="col"] {
-  background: rgb(201, 20, 20);
-  min-height: 100px;
-  border: 1px solid #000;
-  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+ /* ---------бордеры для просмотра верстки и сетки -------- */
+
+
+ /* .outline-row-red {
+  outline: 4px solid rgb(250, 2, 2);
+}
+.outline-seo-block-pink {
+  outline: solid 2px rgb(245, 4, 165);
+}
+.outline-flex-block-blue {
+  outline: 3px solid rgb(2, 19, 250);
+}
+.outline-flex-block-div-blue-light {
+  outline: 2px dotted rgb(2, 200, 250);
 } */
