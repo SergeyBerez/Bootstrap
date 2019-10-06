@@ -1,4 +1,5 @@
 .container {
+  max-width: 990px;
   font-size: 14px;
   font-weight: "arial";
   line-height: 22px;
@@ -28,6 +29,7 @@ li {
   background: rgb(238, 231, 231);
 }
 .img {
+  width:30%;
   align-self: start;
   margin: 10px;
   padding: 10px;
