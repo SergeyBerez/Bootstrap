@@ -17,18 +17,46 @@
   </head>
   <body>
     <div class="container">
-      <h3>fddffdfddffd</h3>
+      
+      <h3>колонки одинаковой ширины col без чисел w-100</h3>
       <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
+        <div class="col">1col</div>
+        <div class="col">2col</div>
+        <div class="w-100"></div>
+        <div class="col">3col</div>
+        <div class="col">4col</div>
       </div>
 
-      <h3>fddffdfddffd</h3>
-      <div class="row">
-        <div class="col-md-5">1</div>
-        <div class="col-md-5">2</div>
-        <div class="col-md-5">3</div>
+      <h3>
+        по умолчанию солонки растягиваются на всю высоту row складывание колонок
+        по горизонтали row {min-height: 100px;}
+      </h3>
+      <div class="row ">
+        <div class="col-sm-4">1col-md-4</div>
+        <div class="col-sm-4">2col-md-4</div>
+        <div class="col-sm-4">3col-md-4</div>
+      </div>
+      <h3>
+        justify-content-around align-items-center row {min-height: 100px;}
+      </h3>
+      <div class="row justify-content-around align-items-center ">
+        <div class="col-sm-8">1col-md-8</div>
+        <div class="col-sm-4">2col-md-4</div>
+      </div>
+      <h3>
+        justify-content-start row {min-height: 100px;}
+      </h3>
+      <div class="row justify-content-start ">
+        <div class="col-sm-4 align-self-start">1col-md-4 align-self-start</div>
+        <div class="col-sm-4 align-self-end">2col-md-4 align-self-end</div>
+      </div>
+      <h3>
+        выравнивание колонокmx-auto align-items-center сброс отступов no-gutters
+      </h3>
+      <div class="row align-items-center no-gutters">
+        <div class="col-8 mx-auto ">col-8 mx-auto</div>
+        <div class="col-5 mr-auto  ">col-5 mr-auto</div>
+        <div class="col-5 ml-auto  ">col-5 ml-auto</div>
       </div>
     </div>
   </body>
