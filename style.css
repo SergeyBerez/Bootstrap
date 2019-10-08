@@ -24,6 +24,7 @@ li {
 .header [class^="col"] {
   background: rgb(77, 73, 73);
   color: white;
+  min-height: 80px;
 }
 .header .img-logo {
   background: rgb(238, 231, 231);
