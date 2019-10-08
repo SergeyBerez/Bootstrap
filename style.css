@@ -27,7 +27,7 @@ li {
   min-height: 80px;
 }
 .header .img-logo {
-  background: rgb(238, 231, 231);
+  /* background: rgb(238, 231, 231); */
 }
 .main-nav {
   display: flex;
