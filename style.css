@@ -24,19 +24,20 @@ li {
 .header [class^="col"] {
   background: rgb(77, 73, 73);
   color: white;
+  min-height: 80px;
 }
 .header .img-logo {
   background: rgb(238, 231, 231);
 }
 .img {
-  width:30%;
+  width: 30%;
   align-self: start;
   margin: 10px;
   padding: 10px;
 }
 img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
 }
 .content-left div {
   text-align: center;
@@ -56,7 +57,6 @@ img {
   padding: 10px;
 }
 
-
 .footer-list-left div {
   background: rgb(77, 73, 73);
   width: 45%;
@@ -64,17 +64,15 @@ img {
   padding: 10px;
 }
 .footer-list-right div {
-  background:rgb(77, 73, 73);
+  background: rgb(77, 73, 73);
   min-height: 100px;
   margin: 10px;
   padding: 10px;
 }
 
+/* ---------бордеры для просмотра верстки и сетки -------- */
 
- /* ---------бордеры для просмотра верстки и сетки -------- */
-
-
- /* .outline-row-red {
+/* .outline-row-red {
   outline: 4px solid rgb(250, 2, 2);
 }
 .outline-seo-block-pink {
