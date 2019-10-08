@@ -22,7 +22,7 @@ li {
   margin: 20px;
 }
 .header [class^="col"] {
-  background: rgb(77, 73, 73);
+  background: #8c7b75;
   color: white;
   min-height: 80px;
 }
@@ -41,12 +41,12 @@ img {
 }
 .content-left div {
   text-align: center;
-  background: rgb(77, 73, 73);
+  background: #8c7b75;
   color: white;
   min-height: 120px;
 }
 .content-right div:not(.box-right) {
-  background: rgb(187, 194, 197);
+  background: #bcaaa4;
   color: white;
 }
 
@@ -58,13 +58,13 @@ img {
 }
 
 .footer-list-left div {
-  background: rgb(77, 73, 73);
+  background: #8c7b75;
   width: 45%;
   margin: 10px;
   padding: 10px;
 }
 .footer-list-right div {
-  background: rgb(77, 73, 73);
+  background: #8c7b75;
   min-height: 100px;
   margin: 10px;
   padding: 10px;
