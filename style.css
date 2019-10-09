@@ -21,14 +21,44 @@ li {
 .footer {
   margin: 20px;
 }
-.header [class^="col"] {
+.header-div{
   background: #8c7b75;
   color: white;
   min-height: 80px;
 }
-.header .img-logo {
-  /* background: rgb(238, 231, 231); */
+.content-left-div,
+.footer-div
+ {
+  color: white;
+  text-align: left;
+  background: #8c7b75;
+  padding: 20px;
 }
+.img {
+  width: 20%;
+  margin: 5px;
+  padding: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ставим background всем картинкам кроме последнего дива в классом это наш еще один флекс  */
+.content-right div:not(.box-right) {
+  background: #bcaaa4;
+  color: white;
+}
+.box-width-45 {
+  background:#8c7b75 ;
+  width: 45%;
+
+ 
+}
+
+
+
+/* это к заданию не относится так дополнительно меню  */
 .main-nav {
   display: flex;
   justify-content: center;
@@ -50,13 +80,11 @@ li {
   width: 100%;
   height: 2px;
   background: rgb(51, 48, 48);
-  transform: translateX(-20px);
-  opacity: 0;
+  transform: translateX(-20px) scale(0);
 }
 
 .main-nav li a:hover:after {
-  transform: translateX(0px);
-  opacity: 1;
+  transform: translateX(0px) scale(1);
 }
 .main-nav li a::before {
   display: block;
@@ -66,54 +94,11 @@ li {
   width: 100%;
   height: 2px;
   background: rgb(51, 48, 48);
-  transform: translateX(20px);
-  opacity: 0;
+  transform: translateX(20px) scale(0);
 }
 
 .main-nav li a:hover::before {
-  transform: translateX(0px);
-  opacity: 1;
-}
-
-.img {
-  width: 20%;
-  align-self: start;
-  margin: 5px;
-  padding: 10px;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-.content-left div {
-  text-align: center;
-  background: #8c7b75;
-  color: white;
-  min-height: 120px;
-}
-.content-right div:not(.box-right) {
-  background: #bcaaa4;
-  color: white;
-}
-
-.box {
-  background: inherit;
-  width: 45%;
-  margin: 10px;
-  padding: 10px;
-}
-
-.footer-list-left div {
-  background: #8c7b75;
-  width: 45%;
-  margin: 10px;
-  padding: 10px;
-}
-.footer-list-right div {
-  background: #8c7b75;
-  min-height: 100px;
-  margin: 10px;
-  padding: 10px;
+  transform: translateX(0px) scale(1);
 }
 
 /* ---------бордеры для просмотра верстки и сетки -------- */
@@ -127,6 +112,6 @@ img {
 .outline-flex-block-blue {
   outline: 3px solid rgb(2, 19, 250);
 }
-.outline-flex-block-div-blue-light {
+.outline-flex-block-div-child {
   outline: 2px dotted rgb(2, 200, 250);
 } */
