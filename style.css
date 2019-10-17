@@ -4,15 +4,15 @@
   /* text-align: center; */
 }
 
-[class^="row"] {
+[class*="row"] {
   min-height: 150px;
   margin-top: 20px;
-  border: 1px solid rgb(240, 24, 24);
+  border: 5px solid rgb(240, 24, 24);
   background: rgb(235, 226, 226);
 }
-[class^="col"] {
+[class*="col"] {
   border: 1px solid #000;
 
-  min-height: 50px;
+  min-height: 40px;
   background: rgb(112, 110, 110);
 }
